@@ -14,6 +14,9 @@ defmodule ExampleSystem.Math do
     end
   end
 
+  # defp calc_sum(n) do
+  #   div(n * (n + 1), 2)
+  # end
   defp calc_sum(13), do: raise("error")
   defp calc_sum(n), do: calc_sum(1, n, 0)
 
